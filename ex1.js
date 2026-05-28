@@ -1,5 +1,7 @@
-let nome = Input.question("Digite seu nome")
-let idade = input.question("Digite sua idade")
-let cidade = input.question("Digite sua cidade")
+const input = require('readline-sync')
 
-console.log('olá meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}')
+let nome = input.question("Digite seu nome ")
+let idade = input.question("Digite sua idade ")
+let cidade = input.question("Digite sua cidade ")
+
+console.log(`Meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}`)
