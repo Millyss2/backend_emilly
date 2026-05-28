@@ -1,9 +1,9 @@
-let num1 = input.question("Digite o  primeiro número: ")
-let num2 = input.question("Digite o  segundo número: ")
+const input = require('readline-sync')
 
-console.log('soma: ${num1 + num2}')
-console.log('subtração: ${num1 - num2}')
-console.log(' divisão ${num1 / num2}')
-console.log(' multiplicação: ${num1 * num2}')
+let num1 = Number(input.question("Digite o primeiro número: "))
+let num2 = Number(input.question("Digite o segundo número: "))
 
-if 
+console.log(`soma: ${num1 + num2}`)
+console.log(`subtração: ${num1 - num2}`)
+console.log(`multiplicação: ${num1 * num2}`)
+console.log(`divisão: ${num1 / num2}`)
